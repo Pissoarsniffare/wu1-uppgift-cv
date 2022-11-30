@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    color: maroon;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: min(80ch, 100vw - 4rem);
+    margin-inline: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #4D2860;
+}
+
+nav>ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>a>img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sidebar {
+    /* ↓ The width when the sidebar _is_ a sidebar */
+    flex-basis: 20rem;
+    flex-grow: 1;
+    background-color: #D4AF37;
+    
+}
+
+.not-sidebar {
+    /* ↓ Grow from nothing */
+    flex-basis: 0;
+    flex-grow: 999;
+    /* ↓ Wrap when the elements are of equal width */
+    min-inline-size: 50%;
+}
+
+main>aside>img {
+    max-width: 70%;
+    max-height: 70%;
+}
