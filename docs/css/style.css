@@ -2,7 +2,7 @@ body {
     background-color: white;
     color: maroon;
     margin: 0;
-    padding: 10;
+    padding: 0;
 
 }
 
@@ -22,6 +22,7 @@ header {
     align-items: center;
     font-size: 1.2rem;
     background-color: #4D2860;
+    color: white;
     
 }
 
@@ -37,8 +38,8 @@ nav {
 }
 
 header>a>img {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .with-sidebar {
