@@ -1,6 +1,9 @@
 body {
     background-color: white;
     color: maroon;
+    margin: 0;
+    padding: 10;
+
 }
 
 img {
@@ -19,6 +22,7 @@ header {
     align-items: center;
     font-size: 1.2rem;
     background-color: #4D2860;
+    
 }
 
 nav>ul {
@@ -41,6 +45,7 @@ header>a>img {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    
 }
 
 .sidebar {
@@ -48,6 +53,7 @@ header>a>img {
     flex-basis: 20rem;
     flex-grow: 1;
     background-color: #D4AF37;
+    text-align: center;
     
 }
 
